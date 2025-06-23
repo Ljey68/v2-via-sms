@@ -1,0 +1,59 @@
+§
+    Afú  ã                   ó<   — d dl mZmZmZ d dlZ G d„ d¦  «        ZdS )é    )Ú DUCKINGÚ RUNNINGÚ JUMPINGNc                   óB   — e Zd ZdZdZdZdZd„ Z d„ Zd „ Z	d„ Z
+d	„ Z
+d
+„ Zd
+S )ÚDinosauréP   i6  iT  g      !@c                 óB  — t           | _        t          | _        t          | _        d| _        d| _         d| _        d| _	        | j
+        | _
+        | j        d         | _        | j         
+                    ¦   «         | _        | j        | j        _        | j        | j        _        d S )NFTr   )r   Úduck_imgr   Ú run_imgr   Újump_imgÚ	dino_duckÚdino_runÚ	dino_jumpÚ
+step_indexÚJUMP_VELÚjump_velÚimageÚget_rectÚ	dino_rectÚX_POSÚxÚY_POSÚy©Úselfs    ú!D:\Pygame-Chrome-Dino\dinosaur.pyÚ__init__zDinosaur.__init__   s|   € ÝˆŒ
+ÝˆŒÝˆŒ
+àˆŒØˆŒ
+ØˆŒàˆŒØœ
+ˆŒ
+Ø”\ !”_ˆŒ
+Øœ×,Ò,Ñ.Ô.ˆŒØœ:ˆŒÔØœ:ˆŒÔÐÐó    c                 ó  — | j         r|                      ¦   «          | j        r|                      ¦   «          | j        r|                      ¦   «          | j        dk    r d| _        |t          j                 s|t          j	                 r| j        sd| _         d| _        d| _        d S |t          j
+                 r| j        sd| _         d| _        d| _        d S | j        s)|t          j
+                 sd| _         d| _        d| _        d S d S d S )Né
+   r   FT)
+r
+   Úduckr   Úrunr   Újumpr   ÚpygameÚK_UPÚ K_SPACEÚK_DOWN)r   Ú	userInputs     r   ÚupdatezDinosaur.update   s  € Ø
+Œ>ð 	ØIŠI‰KŒKˆKØ
+Œ=ð 	ØHŠH‰JŒJˆJØ
+Œ>ð 	ØIŠI‰KŒKˆKà
+Œ?˜bÒ
+ Ð
+ ØˆDŒOà•f”kÔ"ð 
+	# iµ´Ô&?ð 
+	#ÈÌð 
+	#Ø"ˆDŒNØ!ˆDŒMØ!ˆDŒNˆNˆNØ
+•v”}Ô
+%ð  	#¨d¬nð  	#Ø!ˆDŒNØ!ˆDŒMØ"ˆDŒNˆNˆNØ”.ð 	# I­f¬mÔ$<ð 	#Ø"ˆDŒNØ ˆDŒMØ"ˆDŒNˆNˆNð 	#ð 	#ð 	#ð 	#r   c                 óÚ   — | j         | j        dz           | _        | j                             ¦   «         | _        | j        | j        _        | j         | j        _        | xj        dz
+  c_        d S ©Né   é   )	r
+   r   r   r   r   r   r   Ú
+Y_POS_DUCKr   r   s    r   r!   z
+Dinosaur.duck4   sX   € Ø”] 4¤?°aÑ#7Ô8ˆŒ
+Øœ×,Ò,Ñ.Ô.ˆŒØœ:ˆŒÔØœ?ˆŒÔØˆŒ˜1ÑˆŒˆˆr   c                 óÚ   — | j         | j        dz           | _        | j                             ¦   «         | _        | j        | j        _        | j         | j        _        | xj        dz
+  c_        d S r+   )	r
+   r   r   r   r   r   r   r   r   r   s    r   r"   zDinosaur.run;   sX   € Ø”\ $¤/°QÑ"6Ô7ˆŒ
+Øœ×,Ò,Ñ.Ô.ˆŒØœ:ˆŒÔØœ:ˆŒÔØˆŒ˜1ÑˆŒˆˆr   c                 óÒ   — | j         | _        | j        r-| j        xj        | j        dz  z  c_        | xj        dz  c_        | j        | j        
+ k     rd| _        | j        | _        d S d S )Né   gš™™™™™é?F) r   r   r   r   r   r   r   r   s    r   r#   z
+Dinosaur.jumpB   so   € Ø”]ˆŒ
+Ø
+Œ>ð 	!ØŒNÐÔ ¤
+°Ñ 1Ñ1ÐÔØˆMŒM˜SÑ ˆMŒMØ
+Œ=˜DœM˜>Ò
+)Ð
+)Ø"ˆDŒNØ œMˆDŒMˆMˆMð *Ð
+)r   c                 óh   — |                      | j        | j        j        | j        j        f¦  «         d S )N)Úblitr   r   r   r   )r   ÚSCREENs     r   Údrawz
+Dinosaur.drawK   s-   € Ø
+Š
+D”J ¤Ô!1°4´>Ô3CÐ DÑEÔEÐEÐEÐEr   N)
+Ú__name__Ú
+__module__Ú__qualname__r   r   r.   r   r   r)   r!   r"   r#   r5   © r   r   r    r       s‡   € € € € € à€EØ€EØ€JØ€Hð&ð &ð &ð #ð #ð #ð0ð ð ðð ð ð *ð  *ð  *ðFð Fð Fð Fð Fr   r    )Ú
+global_constsr   r   r   r$   r    r9   r   r   ú<module>r;      sr   ðØ 5Ð 5Ð 5Ð 5Ð 5Ð 5Ð 5Ð 5Ð 5Ð 5à 
+€
+€
+€
+ðGFð GFð GFð GFð GFñ GFô GFð GFð GFð GFr   
